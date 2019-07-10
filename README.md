@@ -1,2 +1,3 @@
-# AML_2019_Group-2
-Gradient Descent - Coursework Part 1
+# AML_2019 Coursework, Part 1, Group 2
+
+##Experiments with gradient descent
