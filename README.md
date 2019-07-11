@@ -26,6 +26,6 @@ Experiments with different step-sizes(eta) are carried out in order to investiga
 
 ![Step-sizes plain vanilla](https://user-images.githubusercontent.com/51288218/61087427-86966e80-a42d-11e9-8c36-337d9737994e.png)
 
-The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = $0.2$ (i.e. red points on left graph). The red points show that the algorithm jumps from point to point and does not follow a specific pattern - divergence occurs and the global minimum is not found. 
+The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = 0.2 (i.e. red points on left graph). The red points show that the algorithm jumps from point to point and does not follow a specific pattern - divergence occurs and the global minimum is not found. 
 
 
