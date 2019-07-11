@@ -24,5 +24,6 @@ The plain vanilla algorithm converges at the global minimum in 1839 steps.
 
 Experiments with different step-sizes(eta) are carried out in order to investigate the behaviour of the plain vanilla algorithm and the number of steps needed for convergence.
 
+https://github.com/andreasstephani/AML_2019_Group-2/issues/3#issue-467116518
 
 
