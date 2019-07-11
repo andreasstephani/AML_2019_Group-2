@@ -2,11 +2,7 @@
 
 ## Experiments with gradient descent
 
-### Introduction
-
-Gradient descent is an optimization technique which can be used to minimise a function. This is a very important and useful tool in machine learning. Machine Learning models have a loss function, which is a way to determine how well the model has performed given the different values of each of its parameters. Therefore, gradient descent can be used to find the parameter values that minimise the loss function of the model (i.e. find the parameters that give the lowest loss). The procedure involves taking steps from a starting point on the loss function by evaluating the gradient at each step and adjusting the parameters, until the minimum point is reached.
-
-### The Six-Hump Camel Function
+### Introduction - The Six-Hump Camel Function
 
 In this coursework, it will be desmonstrated how gradient descent can be used to minimise the Six-Hump Camel function which is illustrated in the figure below. The function has two global minimum points at (0.0898,-0.7126) and (-0.0898,0.7126).
 
@@ -27,11 +23,16 @@ Experiments with different step-sizes(eta) are carried out in order to investiga
 ![Step-sizes plain vanilla](https://user-images.githubusercontent.com/51288218/61087427-86966e80-a42d-11e9-8c36-337d9737994e.png)
 
 The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = 0.2 (i.e. red points on right graph).
-Therefore, plain vanilla diverges if the stepsize is too big and can be slow if it is too small.
+Therefore, plain vanilla diverges if the step-size is too big and can be slow if it is too small.
 
 ### Two variants of Gradient Descent
 
 Gradient descent has the limitation of long running time because it uses the whole set of data to determine the next step. Therefore, stochastic gradient descent (SGD) is used which uses a subset of the data to find the next step. As a result, SGD sometimes cannot find the global minimum but it can get a very close approximation. However, the direction and step size of the next step is still a problem for the method.
+
+For this project, experiments with Nesterov's Accelarated Gradient(NAG) and ADAM are performed.
+
+#### Nesterov's Accelarated Gradient NAG
+
 
 
 
