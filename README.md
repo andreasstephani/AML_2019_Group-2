@@ -20,14 +20,17 @@ The graph below shows the loss path until convergence and the loss function usin
 
 ![Plain Vanilla](https://user-images.githubusercontent.com/51288218/61085184-8eebab00-a427-11e9-8472-f4d60c61d388.PNG)
 
-The plain vanilla algorithm converges at the global minimum in 1839 steps.
+The plain vanilla algorithm converges at the global minimum in 1839 steps. However, depending on the starting point it can get stuck into a saddle point.(see notebook)
 
 Experiments with different step-sizes(eta) are carried out in order to investigate the behaviour of the plain vanilla algorithm and the number of steps needed for convergence.
 
 ![Step-sizes plain vanilla](https://user-images.githubusercontent.com/51288218/61087427-86966e80-a42d-11e9-8c36-337d9737994e.png)
 
-The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = 0.2 (i.e. red points on right graph). The red points show that the algorithm jumps from point to point and does not follow a specific pattern - divergence occurs and the global minimum is not found.
+The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = 0.2 (i.e. red points on right graph).
+Therefore, plain vanilla diverges if the stepsize is too big and can be slow if it is too small.
 
 ### Two variants of Plain Vanilla Gradient Descent
+
+
 
 
