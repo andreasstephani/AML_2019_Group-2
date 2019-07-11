@@ -2,9 +2,9 @@
 
 ## Experiments with gradient descent
 
-### Why is gradient descent important in machine learning?
+### Introduction
 
-Gradient descent is an optimization technique which can be used to minimise a function. This is a very important and useful tool in machine learning. Machine Learning models have a loss function, which is a way to determine how well the model has performed given the different values of each of its parameters. Therefore, gradient descent can be used to find the parameter values that minimise the cost function of the model (i.e. find the parameters that give the lowest loss). An example can be a linear regression model where the parameters are the beta coefficients and the cost function is the mean squared error (MSE). Thus, gradient descent could be used to find the beta coefficients that minimise the MSE of the linear regression model.
+Gradient descent is an optimization technique which can be used to minimise a function. This is a very important and useful tool in machine learning. Machine Learning models have a loss function, which is a way to determine how well the model has performed given the different values of each of its parameters. Therefore, gradient descent can be used to find the parameter values that minimise the loss function of the model (i.e. find the parameters that give the lowest loss). The procedure invloves taking steps from a starting point on the loss function by evaluating the gradient at each step and adjusting the parameters, until the minimum point is reached.
 
 ### The Six-Hump Camel Function
 
@@ -14,6 +14,15 @@ In this coursework, it will be desmonstrated how gradient descent can be used to
 
 ### Plain Vanilla Gradient Descent
 
-Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump camel function (i.e. find the global minimum point). The graph below shows the loss path until convergence and the loss function using an initial point of (1,1) and a step-size, eta = 0.001.
+Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump Camel function (i.e. find the global minimum point).  
+
+The graph below shows the loss path until convergence and the loss function using an initial point of (1,1) and a step-size, eta = 0.001.
+
+![Plain Vanilla](https://user-images.githubusercontent.com/51288218/61085184-8eebab00-a427-11e9-8472-f4d60c61d388.PNG)
+
+The plain vanilla algorithm converges at the global minimum in 1839 steps.
+
+Experiments with different step-sizes(eta) are carried out in order to investigate the behaviour of the plain vanilla algorithm and the number of steps needed for convergence.
+
 
 
