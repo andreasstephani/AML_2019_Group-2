@@ -29,7 +29,9 @@ Experiments with different step-sizes(eta) are carried out in order to investiga
 The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = 0.2 (i.e. red points on right graph).
 Therefore, plain vanilla diverges if the stepsize is too big and can be slow if it is too small.
 
-### Two variants of Plain Vanilla Gradient Descent
+### Two variants of Gradient Descent
+
+Gradient descent has the limitation of long running time because it uses the whole set of data to determine the next step. Therefore, stochastic gradient descent (SGD) is used which uses a subset of the data to find the next step. As a result, SGD sometimes cannot find the global minimum but it can get a very close approximation. However, the direction and step size of the next step is still a problem for the method.
 
 
 
