@@ -12,6 +12,8 @@ In this coursework, it will be desmonstrated how gradient descent can be used to
 
 ![Six-Hump Camel Function](https://user-images.githubusercontent.com/51288218/61081430-1f71bd80-a41f-11e9-883a-a4b582f3c638.PNG)
 
-### How does Plain Vanilla Gradient Descent work?
+### Plain Vanilla Gradient Descent
 
-Plain vanilla gradient descent can be used to minimise a function (i.e. find the minimum point). The procedure of doing this starts by choosing a starting point that lies within the domain of the chosen function. The very first step is usually a downhill movement from the starting point towards the direction specified by the gradient at that point. Then, the gradient at the new point is recalculated, and another step is taken in the direction that it specifies. For every step, the gradient of the loss function is calculated and the parameters are adjusted in the opposite direction. This process is repeated until the global minimum of the function or a point where no more downhill movement can be made (i.e. a local minimum) is reached.
+Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump camel function (i.e. find the global minimum point). The graph below shows the loss path until convergence and the loss function using an initial point of (1,1) and a step-size, eta = 0.001.
+
+
