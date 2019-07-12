@@ -92,3 +92,5 @@ NAG|371|(-0.0833 , 0.6614)
 ADAM|1734|(-0.0898 , 0.7126) 
 
 Plain vanilla finds the global minimum but it takes time. It can be concluded that NAG solves the problem of the large number of steps needed for convergence but it does not minimise the function fully - it hits a very close approximation of the global minimum. ADAM does not decrease significantly the time taken but it takes into account the first and second moments of the previous gradients, which can lead to better accuracy.
+
+**Note:**The starting point for all step-size experiments is set to (1,1). 
