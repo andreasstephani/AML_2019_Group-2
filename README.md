@@ -15,7 +15,6 @@ Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump Ca
 The figures below shows the loss path until convergence and the loss function for two different starting points. 
 
 ![pv](https://user-images.githubusercontent.com/51288218/61093431-691fcf80-a442-11e9-8f67-e5d6fdd710a0.png)
-
 Starting Point|eta|Steps|Minimum found
 ---|---|---|---|
 (1,1)|0.001|1839|(-0.0898 , 0.7126) 
@@ -48,7 +47,6 @@ Starting Point|eta|Steps|Minimum found
 NAG does not find the global minimum of the function but it finds a very close approximation and as it can be seen by the figures above it goes over the saddle point that plain vanilla was stuck.
 
 ![NAG STEPSIZE](https://user-images.githubusercontent.com/51288218/61094164-c8331380-a445-11e9-968d-92dbfe627001.png)
-
 eta|Steps|Minimum found
 ---|---|---|
 0.001|371|(-0.0833 , 0.6614)
