@@ -71,5 +71,5 @@ It can be observed that as the value of eta increases the steps needed for conve
 
 Starting Point|eta|Steps|Minimum found
 ---|---|---|---|
-(1,1)|0.001|371|(-0.0833 , 0.6614) 
-(2,1)|0.001|399|(-0.0833 , 0.6614)
+(1,1)|0.001|1734|(-0.0898 , 0.7126 
+(2,1)|0.001|1371|(1.6071 , 0.5687)
