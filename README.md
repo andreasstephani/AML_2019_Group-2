@@ -40,6 +40,11 @@ For this project, experiments with Nesterov's Accelarated Gradient(NAG) and ADAM
 
 ![NAG 1](https://user-images.githubusercontent.com/51288218/61093151-15f94d00-a441-11e9-8ccf-ae1d2052ac11.png)
 
+Starting Point|eta|Steps|Minimum found
+---|---|---|---|
+(1,1)|0.001|371|(-0.0833 , 0.6614) 
+(2,1)|0.001|399|(-0.0833 , 0.6614)
 
+NAG does not find the global minimum of the function but it finds a very close approximation and as it can be seen by the figures above it goes over the saddle point that plain vanilla was stuck.
 
 
