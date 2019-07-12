@@ -14,7 +14,7 @@ Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump Ca
 
 The graph below shows the loss path until convergence and the loss function using an initial point of (1,1) and a step-size, eta = 0.001.
 
-![Plain Vanilla](https://user-images.githubusercontent.com/51288218/61085184-8eebab00-a427-11e9-8472-f4d60c61d388.PNG)
+![pv](https://user-images.githubusercontent.com/51288218/61093431-691fcf80-a442-11e9-8f67-e5d6fdd710a0.png)
 
 The plain vanilla algorithm converges at the global minimum in 1839 steps. However, depending on the starting point it can get stuck into a saddle point.(see notebook)
 
