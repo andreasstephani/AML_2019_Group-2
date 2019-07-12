@@ -61,7 +61,7 @@ eta|Steps|Minimum found
 0.05|50|(0.0833 , -0.6614)
 0.08|27| (0.0833 , -0.6614)
 
-It can be observed that as the value of eta increases the steps needed for convergence decrease and NAG still converges to a very close approximation of the global minimum. However, it can be noticed that there are some fluctuations on the right figure and the curves are not as smooth as the plain vanilla. Also, it is worth noting that 0.05 and 0.08 give the same approximation of the global minimum but with a different sign. The Six-Hump camel function has two global minimums with opposite signs which implies that as eta increases NAG can move and find an approximation of the second global minimum.
+It can be observed that as the value of eta increases the steps needed for convergence decrease and NAG still converges to a very close approximation of the global minimum. However, it can be noticed that there are some fluctuations on the right figure and the curves are not as smooth as the plain vanilla. 
 
 #### ADAM
 
