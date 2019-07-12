@@ -73,3 +73,7 @@ Starting Point|eta|Steps|Minimum found
 ---|---|---|---|
 (1,1)|0.001|1734|(-0.0898 , 0.7126 
 (2,1)|0.001|1371|(1.6071 , 0.5687)
+
+ADAM finds the global minimum of the function but also gets stuck at a saddle point like plain vanilla.
+
+
