@@ -49,4 +49,9 @@ NAG does not find the global minimum of the function but it finds a very close a
 
 ![NAG STEPSIZE](https://user-images.githubusercontent.com/51288218/61094164-c8331380-a445-11e9-968d-92dbfe627001.png)
 
-
+eta|Steps|Minimum found
+---|---|---|
+0.001|371|(-0.0833 , 0.6614)
+0.01|167|(-0.0833 , 0.6614)
+0.05|50|(0.0833 , -0.6614)
+0.08|27| (0.0833 , -0.6614)
