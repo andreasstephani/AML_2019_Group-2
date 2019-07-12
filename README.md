@@ -32,7 +32,7 @@ Therefore, plain vanilla diverges if the step-size is too big and can be slow if
 
 ### Two variants of Gradient Descent
 
-Gradient descent has the limitation of long running time because it uses the whole set of data to determine the next step. Therefore, stochastic gradient descent (SGD) is used which uses a subset of the data to find the next step. As a result, SGD sometimes cannot find the global minimum but it can get a very close approximation. However, the direction and step size of the next step is still a problem for the method.
+Gradient descent has the limitation of long running time because it uses the whole set of data to determine the next step. Therefore, stochastic gradient descent (SGD) is used which uses a subset of the data to find the next step. As a result, SGD sometimes cannot find the global minimum but it can get a very close approximation. 
 
 For this project, experiments with Nesterov's Accelarated Gradient(NAG) and ADAM are performed.
 
@@ -46,5 +46,7 @@ Starting Point|eta|Steps|Minimum found
 (2,1)|0.001|399|(-0.0833 , 0.6614)
 
 NAG does not find the global minimum of the function but it finds a very close approximation and as it can be seen by the figures above it goes over the saddle point that plain vanilla was stuck.
+
+
 
 
