@@ -12,9 +12,15 @@ In this coursework, it will be demonstrated how gradient descent can be used to 
 
 Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump Camel function (i.e. find the global minimum point).  
 
-The graph below shows the loss path until convergence and the loss function using an initial point of (1,1) and a step-size, eta = 0.001.
+The figures below shows the loss path until convergence and the loss function for two different starting points. 
 
 ![pv](https://user-images.githubusercontent.com/51288218/61093431-691fcf80-a442-11e9-8f67-e5d6fdd710a0.png)
+
+Starting Point|eta|Steps|Minimum found
+---|---|---|---|
+(1,1)|0.001|1839|(-0.0898 , 0.7126) 
+(2,1)|0.001|1562|(1.6071 , 0.5687)
+
 
 The plain vanilla algorithm converges at the global minimum in 1839 steps. However, depending on the starting point it can get stuck into a saddle point.(see notebook)
 
