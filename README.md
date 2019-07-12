@@ -67,3 +67,9 @@ It can be observed that as the value of eta increases the steps needed for conve
 
 #### ADAM
 
+![ADAM](https://user-images.githubusercontent.com/51288218/61094775-7dff6180-a448-11e9-8f93-978faed663b4.png)
+
+Starting Point|eta|Steps|Minimum found
+---|---|---|---|
+(1,1)|0.001|371|(-0.0833 , 0.6614) 
+(2,1)|0.001|399|(-0.0833 , 0.6614)
