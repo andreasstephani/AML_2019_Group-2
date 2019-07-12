@@ -9,9 +9,7 @@ In this coursework, it will be demonstrated how gradient descent can be used to 
 ![Six-Hump Camel Function](https://user-images.githubusercontent.com/51288218/61081430-1f71bd80-a41f-11e9-883a-a4b582f3c638.PNG)
 
 ### Plain Vanilla Gradient Descent
-
-Firstly, plain vanilla gradient descent will be used to minimise the Six-Hump Camel function (i.e. find the global minimum point).  
-
+ 
 ![pv](https://user-images.githubusercontent.com/51288218/61093431-691fcf80-a442-11e9-8f67-e5d6fdd710a0.png)
 
 Starting Point|eta|Steps|Minimum found
@@ -38,8 +36,6 @@ Therefore, plain vanilla diverges if the step-size is too big and can be slow if
 ### Two variants of Gradient Descent
 
 Gradient descent has the limitation of long running time because it uses the whole set of data to determine the next step. Therefore, stochastic gradient descent (SGD) is used which uses a subset of the data to find the next step. As a result, SGD sometimes cannot find the global minimum but it can get a very close approximation. 
-
-For this project, experiments with Nesterov's Accelarated Gradient(NAG) and ADAM are performed.
 
 #### Nesterov's Accelarated Gradient NAG
 
