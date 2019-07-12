@@ -21,8 +21,7 @@ Starting Point|eta|Steps|Minimum found
 (1,1)|0.001|1839|(-0.0898 , 0.7126) 
 (2,1)|0.001|1562|(1.6071 , 0.5687)
 
-
-The plain vanilla algorithm converges at the global minimum in 1839 steps. However, depending on the starting point it can get stuck into a saddle point.(see notebook)
+From the figures and table above it can be concluded that plain vanilla can find the global minimum but it can also get stuck at a saddle point depending on the starting point. 
 
 Experiments with different step-sizes(eta) are carried out in order to investigate the behaviour of the plain vanilla algorithm and the number of steps needed for convergence.
 
