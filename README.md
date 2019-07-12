@@ -47,6 +47,6 @@ Starting Point|eta|Steps|Minimum found
 
 NAG does not find the global minimum of the function but it finds a very close approximation and as it can be seen by the figures above it goes over the saddle point that plain vanilla was stuck.
 
-
+![NAG STEPSIZE](https://user-images.githubusercontent.com/51288218/61094164-c8331380-a445-11e9-968d-92dbfe627001.png)
 
 
