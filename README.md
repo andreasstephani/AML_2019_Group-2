@@ -23,7 +23,7 @@ From the figures and table above it can be concluded that plain vanilla can find
 
 Experiments with different step-sizes(eta) are carried out in order to investigate the behaviour of the plain vanilla algorithm and the number of steps needed for convergence.
 
-![Step-sizes plain vanilla](https://user-images.githubusercontent.com/51288218/61087427-86966e80-a42d-11e9-8c36-337d9737994e.png)
+![pv stepsize](https://user-images.githubusercontent.com/51288218/61095922-71313c80-a44d-11e9-9df0-db067be77ae5.png)
 
 eta|Steps|Minimum found
 ---|---|---|
