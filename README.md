@@ -85,4 +85,9 @@ eta|Steps|Minimum found
 0.1|488|(-0.0898 , 0.7126)
 0.2|487| (-0.0898 , 0.7126)
 
+As the value of eta increases the steps needed for convergence decrease. However, it can be observed that the number of steps do not decrease as much as for plain vanilla and NAG. Also there are some fluctuations and the curves are not as smooth as the plain vanilla. Compared with the other two flavours, ADAM does not have the same decrease on its number of steps as eta increases (i.e. takes longer for 'large' eta compared to NAG and plain vanilla) but it finds the global minimum of the function.
+
+###Conclusion
+
+
 
