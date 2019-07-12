@@ -89,7 +89,7 @@ As the value of eta increases the steps needed for convergence decrease. However
 
 ### Conclusion
 
-![Comparison](https://user-images.githubusercontent.com/51288218/61095359-1c8cc200-a44b-11e9-8484-e24e1e500fe4.PNG)
+![Comparison](https://user-images.githubusercontent.com/51288218/61095436-6aa1c580-a44b-11e9-8608-8e665751a729.PNG)
 
 
 
