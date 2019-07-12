@@ -91,5 +91,10 @@ As the value of eta increases the steps needed for convergence decrease. However
 
 ![Comparison](https://user-images.githubusercontent.com/51288218/61095436-6aa1c580-a44b-11e9-8608-8e665751a729.PNG)
 
+Flavour|Steps|Minimum found
+---|---|---|
+Plain Vanilla|1839|(-0.0898 , 0.7126)
+NAG|371|(-0.0833 , 0.6614)
+ADAM|1734|(-0.0898 , 0.7126) 
 
-
+Plain vanilla finds the global minimum but it takes time. It can be concluded that NAG solves the problem of the large number of steps needed for convergence but it does not minimise the function fully - it hits a very close approximation of the global minimum. ADAM does not decrease significantly the time taken but it takes into account the first and second moments of the previous gradients, which can lead to better accuracy.
