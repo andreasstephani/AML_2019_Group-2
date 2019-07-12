@@ -37,7 +37,7 @@ For this project, experiments with Nesterov's Accelarated Gradient(NAG) and ADAM
 
 #### Nesterov's Accelarated Gradient NAG
 
-![NAG 1](https://user-images.githubusercontent.com/51288218/61093151-15f94d00-a441-11e9-8ccf-ae1d2052ac11.png)
+![NAG 1](https://user-images.githubusercontent.com/51288218/61094317-9a9a9a00-a446-11e9-8497-366b1cd7d4f5.png)
 
 Starting Point|eta|Steps|Minimum found
 ---|---|---|---|
