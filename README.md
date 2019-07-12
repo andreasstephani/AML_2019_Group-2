@@ -27,6 +27,13 @@ Experiments with different step-sizes(eta) are carried out in order to investiga
 
 ![Step-sizes plain vanilla](https://user-images.githubusercontent.com/51288218/61087427-86966e80-a42d-11e9-8c36-337d9737994e.png)
 
+eta|Steps|Minimum found
+---|---|---|
+0.001|1839|(-0.0898 , 0.7126)
+0.01|181|(-0.0898 , 0.7126)
+0.1|34|(-0.0898 , 0.7126)
+0.2|Did not converge| 
+
 The figures show that as the value of eta increases the steps needed for convergence decrease. However, if eta is high it might cause the algorithm not to converge and this is the case with **eta** = 0.2 (i.e. red points on right graph).
 Therefore, plain vanilla diverges if the step-size is too big and can be slow if it is too small.
 
@@ -55,3 +62,8 @@ eta|Steps|Minimum found
 0.01|167|(-0.0833 , 0.6614)
 0.05|50|(0.0833 , -0.6614)
 0.08|27| (0.0833 , -0.6614)
+
+It can be observed that as the value of eta increases the steps needed for convergence decrease and NAG still converges to a very close approximation of the global minimum. However, it can be noticed that there are some fluctuations on the right figure and the curves are not as smooth as the plain vanilla. Also, it is worth noting that 0.05 and 0.08 give the same approximation of the global minimum but with a different sign. The Six-Hump camel function has two global minimums with opposite signs which implies that as eta increases NAG can move and find an approximation of the second global minimum.
+
+#### ADAM
+
